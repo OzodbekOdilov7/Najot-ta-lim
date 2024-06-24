@@ -1,29 +1,51 @@
 body{
-    background-color: rgb(249, 236, 212);
-    margin-top: 35px;
+    font-family: sans-serif;
 }
 .container{
     max-width: 1000px;
     margin: 0 auto;
-    background-color: rgb(228, 220, 189);
-    width: 100%;
 }
-.navbar__menue{
+.navbar{
     display: flex;
-    gap: 10px;
+    justify-content: space-around;
+    background-color: rgb(50, 42, 42);
 }
-.header__img{
-    margin-top: 50px;
-}
-.about{
+.main__main{
+    width: 450px;
     text-align: center;
-    margin-top: 20px;
-    font-size: large;
+    margin-top: 25px;
+    margin-left: 250px;
 }
-.about__text{
-    margin-top: 20px;
+.btn{
+    border: none;
+    color: rgb(151, 151, 144);
+    border-radius: 5px;
 }
-.select{
-    border:none;
-    background-color: rgb(255, 254, 229);
+.btn:hover{
+    background-color: rgb(31, 31, 236);
+    cursor: pointer;
+}
+.main__cards{
+    display: flex;
+    gap: 20px;
+}
+.btn1:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.nt{
+    font-size: larger;
+}
+.card{
+    border: 1 px solid black;
+}
+.navbar__icon{
+    gap: 20px;
+    align-items: flex-start;
+    padding: 35px;
+}
+.button{
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgb(118, 102, 82);
 }
