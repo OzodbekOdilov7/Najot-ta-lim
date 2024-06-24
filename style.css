@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(249, 236, 212);
+    margin-top: 35px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(228, 220, 189);
+    width: 100%;
+}
+.navbar__menue{
+    display: flex;
+    gap: 10px;
+}
+.header__img{
+    margin-top: 50px;
+}
+.about{
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+}
+.about__text{
+    margin-top: 20px;
+}
+.select{
+    border:none;
+    background-color: rgb(255, 254, 229);
+}
