@@ -49,3 +49,7 @@ body{
     padding: 7px;
     background-color: rgb(118, 102, 82);
 }
+.button:hover{
+    background-color: rgb(238, 238, 206);
+    cursor: pointer;
+}
